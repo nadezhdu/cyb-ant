@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
 <body>
   <h1>cyb-ant is a cyberpunk anthology</h1>
@@ -10,3 +15,4 @@
   </ul>
   <p>more information to be added to this site as relevant. for suggestions/inquiries, contact nadezhdu@protonmail.com</p>
 </body>
+</html>
