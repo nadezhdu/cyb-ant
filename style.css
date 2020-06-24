@@ -4,6 +4,11 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+	text-decoration: underline;
+	color: #DDDDFF;
+}
+
 .grad-desc {
 	color: #AAFFAA;
 	font-family: "Lucida Console", Courier, monospace;
