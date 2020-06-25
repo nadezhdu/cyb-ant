@@ -6,8 +6,8 @@
 
 <body>
   <ul class="navbar">
-  	<li><a href="index.html">index.html</a></li>
-  	<li><a href="writers.html">writers.html</a></li>
+  	<li><a href="index.md">index.html</a></li>
+  	<li><a href="writers.md">writers.html</a></li>
   </ul>
 
   <p>interested contributors should consider the following guidelines:</p>

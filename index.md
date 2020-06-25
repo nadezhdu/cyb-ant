@@ -6,8 +6,8 @@
 
 <body>
   <ul class="navbar">
-  	<li><a href="index.html">index.html</a></li>
-  	<li><a href="writers.html">writers.html</a></li>
+  	<li><a href="index.md">index.html</a></li>
+  	<li><a href="writers.md">writers.html</a></li>
   </ul>
 
   <h1><span class="grad-desc">Gradient Descent</span> is a cyberpunk anthology</h1>
