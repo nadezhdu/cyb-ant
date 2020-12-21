@@ -33,7 +33,15 @@ a {
 	text-decoration: none;
 }
 
-.navbar li a:hover, .drop:hover .droptop, .toc li a:hover {
+.navbar li a:hover {
+	background-color: black;
+}
+
+.drop:hover .droptop {
+	background-color: black;
+}
+
+.toc li a:hover {
 	background-color: black;
 }
 
