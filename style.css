@@ -87,6 +87,12 @@ a {
 	font-variant: small-caps;
 }
 
+.highlight-box {
+	background-color: #23232D;
+	margin: 0px, 8px;
+	padding: 8px;
+}
+
 h2 {
 	font-size: 10pt;
 	font-weight: normal;
