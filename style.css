@@ -8,6 +8,11 @@ body {
 	margin: auto;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 a {
 	text-decoration: underline;
 	color: #DDDDFF;
