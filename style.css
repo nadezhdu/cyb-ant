@@ -110,6 +110,8 @@ h2 {
 }
 
 .link-gallery {
+	max-width: 50%;
+	margin: auto;
 	display: flex;
 }
 
@@ -122,4 +124,5 @@ h2 {
 	text-align: center;
 	font-size: 16pt;
 	color: #ffd60c;
+	margin-bottom: 4px;
 }
