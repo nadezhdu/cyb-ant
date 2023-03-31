@@ -2,10 +2,15 @@ body {
 	background-color: #33333D;
 	color: #DDDDFF;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12pt;
+	font-size: 14pt;
 	max-width: 800px;
-	line-height: 1.5;
+	line-height: 1.6;
 	margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 img {
@@ -16,6 +21,10 @@ img {
 a {
 	text-decoration: underline;
 	color: #DDDDFF;
+}
+
+a:hover {
+	background-color: #555;
 }
 
 .navbar {
@@ -31,7 +40,7 @@ a {
 
 .navbar li a {
 	display: block;
-	color: white;
+	color: #DDDDFF;
 	text-align: center;
 	font-size: 16pt;
 	padding: 15px 25px;
@@ -39,15 +48,15 @@ a {
 }
 
 .navbar li a:hover {
-	background-color: black;
+	background-color: #1F1F27;
 }
 
 .drop:hover .droptop {
-	background-color: black;
+	background-color: #1F1F27;
 }
 
 .toc li a:hover {
-	background-color: black;
+	background-color: #1F1F27;
 }
 
 .drop .droptop {
@@ -72,7 +81,7 @@ a {
 	padding: 0;
 	overflow: hidden;
 	z-index: 1;
-	outline: 1px solid #484850;
+	outline: 1px solid #1F1F27;
 	background-color: #33333D;
 }
 
@@ -125,4 +134,33 @@ h2 {
 	font-size: 16pt;
 	color: #ffd60c;
 	margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Change the font size for easier reading on smaller screens */
+  body {
+    font-size: 14px;
+  }
+  
+  /* Make the navbar links stack vertically */
+  .navbar li {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  
+  /* Hide the table of contents initially */
+  .toc {
+    display: none;
+  }
+  
+  /* Make the dropdown menu display when its parent is clicked */
+  .drop:hover .toc {
+    display: block;
+  }
+  
+  /* Adjust the padding of the navbar links */
+  .navbar li a {
+    padding: 10px;
+  }
 }
