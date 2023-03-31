@@ -116,6 +116,15 @@ h2 {
 	text-indent: 30px;
 	line-height: 1.5;
 	font-size: 14pt;
+	font-family: "Nunito", Arial, sans-serif;
+}
+
+.byline h1 {
+	margin-bottom: 0px;
+}
+
+.byline h2 {
+	margin-top: -16px;
 }
 
 .link-gallery {
