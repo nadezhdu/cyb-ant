@@ -127,6 +127,10 @@ h2 {
 	margin-top: -16px;
 }
 
+.no-indent {
+	text-indent: 0px !important;
+}
+
 .link-gallery {
 	max-width: 50%;
 	margin: auto;
