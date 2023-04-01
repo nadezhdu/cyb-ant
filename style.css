@@ -178,8 +178,10 @@ h2 {
   }
 }
 
-.spacer {
-	display: block;
-	margin-top: 40px;
-	margin-bottom: 40px;
+.space-top {
+	margin-top: 64px;
+}
+
+.space-bottom {
+	margin-bottom: 64px;
 }
