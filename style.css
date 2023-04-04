@@ -27,6 +27,10 @@ a:hover {
 	background-color: #555;
 }
 
+a.endnote {
+	text-decoration: none;
+}
+
 .navbar {
 	list-style-type: none;
 	margin: 0;
@@ -48,15 +52,15 @@ a:hover {
 }
 
 .navbar li a:hover {
-	background-color: #1F1F27;
+	background-color: #13131D;
 }
 
 .drop:hover .droptop {
-	background-color: #1F1F27;
+	background-color: #13131D;
 }
 
 .toc li a:hover {
-	background-color: #1F1F27;
+	background-color: #13131D;
 }
 
 .drop .droptop {
@@ -81,7 +85,7 @@ a:hover {
 	padding: 0;
 	overflow: hidden;
 	z-index: 1;
-	outline: 1px solid #1F1F27;
+	outline: 1px solid #13131D;
 	background-color: #23232D;
 }
 
@@ -102,7 +106,7 @@ a:hover {
 }
 
 .highlight-box {
-	background-color: #1F1F27;
+	background-color: #13131D;
 	margin: 0px, 8px;
 	padding: 8px;
 }
@@ -129,6 +133,27 @@ h2 {
 
 .no-indent {
 	text-indent: 0px !important;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 .link-gallery {
